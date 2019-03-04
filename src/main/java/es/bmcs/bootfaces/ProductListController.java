@@ -1,4 +1,4 @@
-package com.auth0.samples.bootfaces;
+package es.bmcs.bootfaces;
 
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.annotation.RequestAction;
