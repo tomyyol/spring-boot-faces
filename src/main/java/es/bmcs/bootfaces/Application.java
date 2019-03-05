@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan({"com.auth0.samples.bootfaces"})
+@ComponentScan({"es.bmcs"})
 public class Application extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
