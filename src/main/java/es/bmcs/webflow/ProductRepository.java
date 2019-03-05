@@ -1,4 +1,4 @@
-package es.bmcs.bootfaces;
+package es.bmcs.webflow;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

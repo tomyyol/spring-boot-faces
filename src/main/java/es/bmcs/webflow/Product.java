@@ -1,4 +1,4 @@
-package es.bmcs.bootfaces;
+package es.bmcs.webflow;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package es.bmcs.bootfaces;
+package es.bmcs.webflow;
 
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.el.ELBeanName;
