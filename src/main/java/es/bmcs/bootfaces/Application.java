@@ -28,12 +28,4 @@ public class Application extends SpringBootServletInitializer {
         return new ServletRegistrationBean(servlet, "*.jsf");
     }
 
-    @Bean
-    public FilterRegistrationBean rewriteFilter() {
-        FilterRegistrationBean rwFilter = new FilterRegistrationBean(new RewriteFilter());
-        rwFilter.setDispatcherTypes(EnumSet.of(DispatcherType.FORWARD, DispatcherType.REQUEST,
-                DispatcherType.ASYNC, DispatcherType.ERROR));
-        rwFilter.addUrlPatterns("/*");
-        return rwFilter;
-    }
 }
